@@ -2553,9 +2553,9 @@ __metadata:
   linkType: hard
 
 "@rolldown/pluginutils@npm:^1.0.0-beta.34":
-  version: 1.0.0-beta.34
-  resolution: "@rolldown/pluginutils@npm:1.0.0-beta.34"
-  checksum: 10c0/96565287991825ecd90b60607dae908ebfdde233661fc589c98547a75c1fd0282b2e2a7849c3eb0c9941e2fba34667a8d5cdb8d597370815c19c2f29b4c157b4
+  version: 1.0.0-beta.9-commit.d91dfb5
+  resolution: "@rolldown/pluginutils@npm:1.0.0-beta.9-commit.d91dfb5"
+  checksum: 10c0/63fa64fdd98a2cc99f21dab5c1819ffec172d2282cbff5dcb1089a84d2bb5c556dc6af503e778058f4a038d1941c0179f677ceddd0e30f024b57c543f21042f0
   languageName: node
   linkType: hard
 
@@ -2855,18 +2855,18 @@ __metadata:
   linkType: hard
 
 "@stylistic/eslint-plugin@npm:^5.2.3":
-  version: 5.2.3
-  resolution: "@stylistic/eslint-plugin@npm:5.2.3"
+  version: 5.3.1
+  resolution: "@stylistic/eslint-plugin@npm:5.3.1"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.7.0"
-    "@typescript-eslint/types": "npm:^8.38.0"
+    "@typescript-eslint/types": "npm:^8.41.0"
     eslint-visitor-keys: "npm:^4.2.1"
     espree: "npm:^10.4.0"
     estraverse: "npm:^5.3.0"
     picomatch: "npm:^4.0.3"
   peerDependencies:
     eslint: ">=9.0.0"
-  checksum: 10c0/335cdb779e0afd2d2dc40ee58eb9f04c1d7ac51317c46834e3f0c0839746b8810a18af4268853a0f3c2b330976b9e5cf2753c3fac22a42e8976c0575602b2985
+  checksum: 10c0/806a96beae7744b37f5f60c9f3ed074f6abb64afe009d58d99f33b30723101d0c6ed9ccbcdbc1418c9e9842a46f689aa52fae67a44ce5c55b1540ad7218e6939
   languageName: node
   linkType: hard
 
@@ -3110,11 +3110,9 @@ __metadata:
   linkType: hard
 
 "@types/parse-path@npm:^7.0.0":
-  version: 7.1.0
-  resolution: "@types/parse-path@npm:7.1.0"
-  dependencies:
-    parse-path: "npm:*"
-  checksum: 10c0/3e45c79a33582ba126250190cc00e939edbbe9f19f9772b41905ee391bb7190387129b0999295c21bad20e5a60b945ea7c5e53cec559f988a14c071639730af0
+  version: 7.0.3
+  resolution: "@types/parse-path@npm:7.0.3"
+  checksum: 10c0/8344b6c7acba4e4e5a8d542f56f53c297685fa92f9b0c085d7532cc7e1b661432cecfc1c75c76cdb0d161c95679b6ecfe0573d9fef7c836962aacf604150a984
   languageName: node
   linkType: hard
 
@@ -3233,7 +3231,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:8.41.0, @typescript-eslint/types@npm:^8.34.0, @typescript-eslint/types@npm:^8.35.0, @typescript-eslint/types@npm:^8.38.0, @typescript-eslint/types@npm:^8.39.1, @typescript-eslint/types@npm:^8.41.0":
+"@typescript-eslint/types@npm:8.41.0, @typescript-eslint/types@npm:^8.34.0, @typescript-eslint/types@npm:^8.35.0, @typescript-eslint/types@npm:^8.39.1, @typescript-eslint/types@npm:^8.41.0":
   version: 8.41.0
   resolution: "@typescript-eslint/types@npm:8.41.0"
   checksum: 10c0/4945a7ed7789e0527833ee378b962416d6d0d61eb6c891fe49cb6c8dc8a9adbfc58676080ca767a1f034f74f9a981caf5f4d4706cba5025c0520a801fb45d7e1
@@ -3751,15 +3749,15 @@ __metadata:
   linkType: hard
 
 "@vueuse/core@npm:^13.8.0":
-  version: 13.8.0
-  resolution: "@vueuse/core@npm:13.8.0"
+  version: 13.9.0
+  resolution: "@vueuse/core@npm:13.9.0"
   dependencies:
     "@types/web-bluetooth": "npm:^0.0.21"
-    "@vueuse/metadata": "npm:13.8.0"
-    "@vueuse/shared": "npm:13.8.0"
+    "@vueuse/metadata": "npm:13.9.0"
+    "@vueuse/shared": "npm:13.9.0"
   peerDependencies:
     vue: ^3.5.0
-  checksum: 10c0/337f4ed09a2150e844fa5dc51f669cc065029dc7dac2b33bbc3de91e41a485ca5ff4cbc77bf0f9b85347a289a262a5c86f56080557e6845148652474e6a4c9a8
+  checksum: 10c0/f1e6c5e02584e018e53e0e5f93844afbcd33742c5a2454e57aaa3433e9068efbe84b7b423f34628738e28e3ba4bfe7d648f2edaae39706a236ae48bc1a22709b
   languageName: node
   linkType: hard
 
@@ -3770,10 +3768,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:13.8.0":
-  version: 13.8.0
-  resolution: "@vueuse/metadata@npm:13.8.0"
-  checksum: 10c0/3170e40b090dec66069f04c43f52d7d7e77d3cdca9c52b836da511ba9ed9fb83f91d78317749b5ff48167cc19560bf15d47246c6e30c1e689d855504feef2d57
+"@vueuse/metadata@npm:13.9.0":
+  version: 13.9.0
+  resolution: "@vueuse/metadata@npm:13.9.0"
+  checksum: 10c0/7e4620c6e5acbf8f2e5eba0db80a8de887f4816221b383e5d829ee833139d262b8a89e9709d58d7aacb263927ce2c55e262eb29372f784aa9138c8fa7a86506a
   languageName: node
   linkType: hard
 
@@ -3786,12 +3784,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:13.8.0":
-  version: 13.8.0
-  resolution: "@vueuse/shared@npm:13.8.0"
+"@vueuse/shared@npm:13.9.0":
+  version: 13.9.0
+  resolution: "@vueuse/shared@npm:13.9.0"
   peerDependencies:
     vue: ^3.5.0
-  checksum: 10c0/ee3dfee470e661c41db9e29ed8e22be33f0ad4a37f22dadabf345265802e392fe5762a80c2451830527425c1ac485e27d504f480785be472a328bcb0e8605e17
+  checksum: 10c0/4820f71caab3c94bc88343270bb4408d8818baa9c0223e6f7499aeb05f9227a87724c15b792f2aaf308137ac996cccd93c0cbe338f7cf3ae50045981abc223a3
   languageName: node
   linkType: hard
 
@@ -4130,8 +4128,8 @@ __metadata:
   linkType: hard
 
 "bare-fs@npm:^4.0.1":
-  version: 4.2.1
-  resolution: "bare-fs@npm:4.2.1"
+  version: 4.2.2
+  resolution: "bare-fs@npm:4.2.2"
   dependencies:
     bare-events: "npm:^2.5.4"
     bare-path: "npm:^3.0.0"
@@ -4141,7 +4139,7 @@ __metadata:
   peerDependenciesMeta:
     bare-buffer:
       optional: true
-  checksum: 10c0/16cb6593b69d277bceb03710533682e8677dd8598ebc757cf406faa1f6178446f534726d845519fc77469ad8d86265e8c9f5b419fd93a8c7e30aacc1722ee05d
+  checksum: 10c0/54d28ea066a1d6d706949d1244cd6bbaf173af79c7e882499a5586b70e8b5932a105b6844785a1794ba8bef5ed3ac91b09993a7f4ccd4a9d5e5fe612c6d4dd47
   languageName: node
   linkType: hard
 
@@ -9175,7 +9173,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse-path@npm:*, parse-path@npm:^7.0.0":
+"parse-path@npm:^7.0.0":
   version: 7.1.0
   resolution: "parse-path@npm:7.1.0"
   dependencies:
@@ -12001,8 +11999,8 @@ __metadata:
   linkType: hard
 
 "vite@npm:^5.0.0 || ^6.0.0 || ^7.0.0-0, vite@npm:^7.0.6":
-  version: 7.1.3
-  resolution: "vite@npm:7.1.3"
+  version: 7.1.4
+  resolution: "vite@npm:7.1.4"
   dependencies:
     esbuild: "npm:^0.25.0"
     fdir: "npm:^6.5.0"
@@ -12051,7 +12049,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/a0aa418beab80673dc9a3e9d1fa49472955d6ef9d41a4c9c6bd402953f411346f612864dae267adfb2bb8ceeb894482369316ffae5816c84fd45990e352b727d
+  checksum: 10c0/dbe2ba29926ffe8985c93d1b3718dcc9040080b7fa10a74c82a52aad7449136a391ba17b265288ff03b864e6f1033b9b537247521a96d5491a9d4af90ac04702
   languageName: node
   linkType: hard
 
