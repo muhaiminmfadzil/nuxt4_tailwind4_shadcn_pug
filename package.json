@@ -33,5 +33,6 @@
   "devDependencies": {
     "pug": "^3.0.3",
     "vite-plugin-pug": "^0.4.1"
-  }
+  },
+  "packageManager": "yarn@4.9.4"
 }
