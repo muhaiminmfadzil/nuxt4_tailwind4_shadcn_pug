@@ -1,10 +1,9 @@
-<template>
-  <div class="p-4 flex items-center justify-center gap-4 mt-10">
-    <VButton>Click me</VButton>
-    <VButton variant="secondary">Click me</VButton>
-    <VButton variant="destructive">Click me</VButton>
-    <VButton variant="outline">Click me</VButton>
-    <VButton variant="ghost">Click me</VButton>
-    <VButton variant="link">Click me</VButton>
-  </div>
+<template lang="pug">
+  .p-4.flex.items-center.justify-center.gap-4.mt-10
+    v-button Click me
+    v-button(variant="secondary") Click me
+    v-button(variant="destructive") Click me
+    v-button(variant="outline") Click me
+    v-button(variant="ghost") Click me
+    v-button(variant="link") Click me
 </template>
