@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer/>
-    <NuxtWelcome/>
+    <VButton>Click me</VButton>
   </div>
 </template>

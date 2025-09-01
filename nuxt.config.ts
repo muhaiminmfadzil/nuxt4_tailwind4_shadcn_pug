@@ -10,13 +10,27 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxt/test-utils'
+    '@nuxt/test-utils',
+    'shadcn-nuxt',
   ],
 
   css: ['~/assets/css/tailwind.css'],
+
   vite: {
     plugins: [
       tailwindcss(),
     ],
+  },
+
+  shadcn: {
+    /**
+     * Prefix for all the imported component
+     */
+    prefix: 'V',
+    /**
+     * Directory that the component lives in.
+     * @default "./components/ui"
+     */
+    componentDir: '~/components/ui'
   },
 })
