@@ -14,7 +14,6 @@ A modern Nuxt.js application with Tailwind CSS for styling, Shadcn UI components
 ### 1. Create Nuxt Project
 
 ```bash
-# Create a new Nuxt project
 yarn create nuxt my-project-name
 cd my-project-name
 ```
@@ -23,7 +22,6 @@ refer official docs: https://nuxt.com/docs/4.x/getting-started/installation
 ### 2. Install Tailwind CSS
 
 ```bash
-# Install Tailwind CSS module for Nuxt
 yarn add tailwindcss @tailwindcss/vite
 ```
 
@@ -64,12 +62,10 @@ refer official docs: https://tailwindcss.com/docs/installation/framework-guides/
 ### 3. Install Shadcn UI
 
 ```bash
-# Add Shadcn UI module
 npx nuxi@latest module add shadcn-nuxt
 ```
 - Add a Nuxt Plugin for providing ssrWidth, install the needed package
 ```bash
-# Add VueUse core
 yarn add @vueuse/core
 ```
 ```typescript
@@ -100,7 +96,6 @@ export default defineNuxtConfig({
 ```
 - Run the CLI
 ```bash
-# Initialize shadcn-vue
 npx shadcn-vue@latest init
 ```
 - Might encounter issues with file/path not found error
@@ -119,17 +114,17 @@ npx shadcn-vue@latest init
 ```
 - Add Components
 ```bash
-# Add a button component
 npx shadcn-vue@latest add button
 ```
 The command above will add the Button component to your project. Nuxt autoImport will handle importing the components, you can just use it as such
+
+- Important note, when using Nuxt 4, make sure to move the created `components/ui` and `lib` folder into `app` folder
 
 refer official docs: https://www.shadcn-vue.com/docs/installation/nuxt.html
 
 ### 4. Install Pug Support
 
 ```bash
-# Install Pug and Vite plugin
  yarn add --dev pug vite-plugin-pug 
 ```
 - We can now use pug in our `.vue` files
@@ -142,6 +137,13 @@ refer official docs: https://www.shadcn-vue.com/docs/installation/nuxt.html
 ```
 refer official docs for vite-plugin-pug: https://www.npmjs.com/package/vite-plugin-pug
 refer official docs for pug options: https://pugjs.org/api/reference.html#options
+
+### 5. Nuxt compile error fix
+- Might encounter issues with compiler error
+- To fix, add typescript to dev dependencies
+```bash
+yarn add -D typescript
+```
 ## Setup
 
 Make sure to install dependencies:
