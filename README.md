@@ -144,7 +144,31 @@ refer official docs: https://www.shadcn-vue.com/docs/installation/nuxt.html
 ### 4. Install Pug Support
 
 ```bash
- yarn add --dev pug vite-plugin-pug 
+ yarn add --dev pug vite-plugin-pug @vue/language-plugin-pug
+```
+
+- Configure `tsconfig.json` to enable Pug language support:
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "vueCompilerOptions": {
+    "plugins": ["@vue/language-plugin-pug"]
+  }
+}
+```
+
+- If your IDE's Vue plugin doesn't support the latest version of `@vue/language-plugin-pug`, downgrade to version 2.2.12:
+
+```bash
+yarn add --dev @vue/language-plugin-pug@2.2.12
 ```
 
 - We can now use pug in our `.vue` files
