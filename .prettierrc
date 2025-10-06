@@ -1,0 +1,18 @@
+{
+  "semi": false,
+  "printWidth": 120,
+  "trailingComma": "none",
+  "singleQuote": true,
+  "pugSingleQuote": false,
+  "plugins": [
+    "@prettier/plugin-pug"
+  ],
+  "overrides": [
+    {
+      "files": "*.pug",
+      "options": {
+        "parser": "pug"
+      }
+    }
+  ]
+}

@@ -175,19 +175,30 @@ yarn add -D typescript
 - Install Prettier dependencies
 
 ```bash
-yarn add -D prettier @prettier/plugin-pug
+yarn add -D prettier @prettier/plugin-pug eslint-config-prettier eslint-plugin-prettier
 ```
 
-- Create `.prettierrc.yaml` file and add the following configuration (adjust as needed)
+- Create `.prettierrc` file and add the following configuration (adjust as needed)
 
-```yaml
-semi: false
-singleQuote: true
-tabWidth: 2
-trailingComma: 'none'
-printWidth: 120
-plugins:
-  - '@prettier/plugin-pug'
+```json
+{
+  "semi": false,
+  "printWidth": 120,
+  "trailingComma": "none",
+  "singleQuote": true,
+  "pugSingleQuote": false,
+  "plugins": [
+    "@prettier/plugin-pug"
+  ],
+  "overrides": [
+    {
+      "files": "*.pug",
+      "options": {
+        "parser": "pug"
+      }
+    }
+  ]
+}
 ```
 
 refer official docs:
